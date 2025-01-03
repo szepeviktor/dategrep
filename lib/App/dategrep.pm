@@ -9,7 +9,7 @@ use Pod::Usage;
 use Getopt::Long;
 use File::Basename qw(basename);
 
-our $VERSION = '2.07';
+our $VERSION = '2.08';
 
 our $app;
 

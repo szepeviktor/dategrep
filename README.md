@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/mdom/dategrep.svg?branch=master)](https://travis-ci.org/mdom/dategrep) [![Coverage Status](https://img.shields.io/coveralls/mdom/dategrep/master.svg?style=flat)](https://coveralls.io/r/mdom/dategrep?branch=master)
 [![MetaCPAN Release](https://badge.fury.io/pl/App-dategrep.svg)](https://metacpan.org/release/App-dategrep)
 
 # NAME

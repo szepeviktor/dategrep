@@ -4,7 +4,7 @@
       "Mario Domgoergen C<< <mario@domgoergen.com> >>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v3.1.6, CPAN::Meta::Converter version 2.150010",
+   "generated_by" : "Minilla/v3.1.25, CPAN::Meta::Converter version 2.150010",
    "license" : [
       "gpl_3"
    ],
@@ -72,17 +72,17 @@
       "homepage" : "https://github.com/mdom/dategrep",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/mdom/dategrep.git",
+         "url" : "https://github.com/mdom/dategrep.git",
          "web" : "https://github.com/mdom/dategrep"
       }
    },
-   "version" : "2.07",
+   "version" : "2.08",
    "x_contributors" : [
       "James Raspass <jraspass@gmail.com>",
       "Mario Domgoergen <mario@domgoergen.com>",
       "Mario Domgoergen <mdom@taz.de>",
       "Viktor Szépe <viktor@szepe.net>"
    ],
-   "x_serialization_backend" : "JSON::PP version 2.97001",
+   "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1
 }
