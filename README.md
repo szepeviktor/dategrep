@@ -1,5 +1,3 @@
-[![MetaCPAN Release](https://badge.fury.io/pl/App-dategrep.svg)](https://metacpan.org/release/App-dategrep)
-
 # NAME
 
 dategrep - print lines matching a time range

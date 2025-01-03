@@ -1,7 +1,5 @@
 Revision history for Perl module App::dategrep
 
-{{$NEXT}}
-
 2.08 2025-01-03T08:01:34Z
 
   - skip fractional seconds
