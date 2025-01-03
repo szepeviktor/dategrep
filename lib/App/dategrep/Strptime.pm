@@ -50,7 +50,7 @@ sub build_patterns {
     my $hours     = "[0 ][0-9] | 1[0-9] | 2[0-3]";
     my $hours_12  = "[0 ][0-9] | 1[0-2]";
     my $minutes   = "[0 ][0-9] | [1-5][0-9]";
-    my $seconds   = "[0 ][0-9] | [1-5][0-9]";
+    my $seconds   = "(?:[0 ][0-9] | [1-5][0-9])(?:\.[0-9]+)?";
     my $year      = "\\d{4}";
     my $month     = "[0 ][1-9] | 1[012]";
     my $day       = "[0 ][1-9] | [12][0-9] | 3[01]";
@@ -150,6 +150,10 @@ sub strptime {
                     $match{year} = 2000 + $match{short_year};
                 }
             }
+        }
+
+        if ( $match{seconds} ) {
+            $match{seconds} =~ s/\.[0-9]+//;
         }
 
         my @args = (

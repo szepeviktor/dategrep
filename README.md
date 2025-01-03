@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/mdom/dategrep.svg?branch=master)](https://travis-ci.org/mdom/dategrep) [![Coverage Status](https://img.shields.io/coveralls/mdom/dategrep/master.svg?style=flat)](https://coveralls.io/r/mdom/dategrep?branch=master)
 [![MetaCPAN Release](https://badge.fury.io/pl/App-dategrep.svg)](https://metacpan.org/release/App-dategrep)
 
 # NAME
@@ -103,6 +102,12 @@ Reading from compress files or stdin:
     time format string can contain the conversion specifications described in the
     _strptime(3)_ manual page. Currently only the specifiers
     "AaBbcHMSdDIlmnYzZRrTFehkCyXx%" are supported.
+
+    Any fractional seconds (e.g., nanoseconds) included in the input
+    string are skipped and ignored for the purposes of date and time
+    calculations. The %S specifier only processes the integer part of
+    the seconds value and does not retain or utilize nanoseconds in
+    computations.
 
     This option can be given multiple times. In this case dategrep tries
     every format in the order given until it can match a line.
