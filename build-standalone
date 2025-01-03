@@ -22,7 +22,7 @@ sub wanted {
     }
 }
 
-my $script = 'script/dategrep';
+my $script = 'bin/dategrep';
 
 open( my $fh, '<', $script ) or die "Can't open $script: $!\n";
 
